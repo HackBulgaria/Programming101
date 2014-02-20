@@ -67,7 +67,7 @@ def sum_of_digits(n):
 
 ## Problem 2
 
-Given an array of integers, write a function, called ```sum_of_min_and_max  (arr)```, that calculates and returns the sum of the largest and the smallest integers in the array.
+Given an array of integers, write a function, called ```sum_of_min_and_max(arr)```, that calculates and returns the sum of the largest and the smallest integers in the array.
 
 Don't bother for the case when the array is empty.
 
