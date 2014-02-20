@@ -143,6 +143,7 @@ False
 True
 >>> is_prime(-10)
 False
+```
 
 ## Problem 5
 
