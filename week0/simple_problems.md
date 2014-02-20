@@ -6,14 +6,14 @@ The solutions should be written for Python 3.* verion.
 
 The most annoying problem of all. Write a function, called ```nth_fibonacci(n)``` that returns the n-th fibonacci number, given by the argument.
 
-The signature should look like this:
+### Signature
 
 ```python
 def nth_fibonacci(n):
     #implementation here
 ```
 
-And here are few test examples of the output:
+### Test examples
 
 ```
 >>> nth_fibonacci(1)
@@ -25,4 +25,37 @@ And here are few test examples of the output:
 >>> nth_fibonacci(10)
 55
 >>>
+```
+
+## Problem 1
+
+Given an integer, write a function, called ```sum_of_digits(n)``` that calculates the sum of the digits of n.
+
+For example, if n is 1325132435356, the digit's sum is 43.
+
+Keep in mind that in Python, there is a special operator for integer division:
+
+```
+>>> 5 / 2
+2.5
+>>> 5 // 2
+2
+```
+
+### Signature
+
+```python
+def sum_of_digits(n):
+    # implementation
+```
+
+### Test examples
+
+```
+>>> sum_of_digits(1325132435356)
+43
+>>> sum_of_digits(123)
+6
+>>> sum_of_digits(6)
+6
 ```
