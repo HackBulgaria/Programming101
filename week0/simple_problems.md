@@ -31,7 +31,10 @@ def nth_fibonacci(n):
 
 Given an integer, write a function, called ```sum_of_digits(n)``` that calculates the sum of the digits of n.
 
+If a negative number is given, the function should work as if it was possitive.
+
 For example, if n is 1325132435356, the digit's sum is 43.
+If n is -10, the sum is 1 + 0 = 1
 
 Keep in mind that in Python, there is a special operator for integer division:
 
@@ -58,4 +61,29 @@ def sum_of_digits(n):
 6
 >>> sum_of_digits(6)
 6
+>>> sum_of_digits(-10)
+1
+```
+
+## Problem 2
+
+Given an array of integers, write a function, called ```sum_of_min_and_max  (arr)```, that calculates and returns the sum of the largest and the smallest integers in the array.
+
+Don't bother for the case when the array is empty.
+
+### Signature
+
+```python
+def sum_of_min_and_max(arr):
+    # implementation
+```
+
+### Test examples
+```
+>>> sum_of_min_and_max([1,2,3,4,5,6,8,9])
+10
+>>> sum_of_min_and_max([-10,5,10,100])
+90
+>>> sum_of_min_and_max([1])
+2
 ```
