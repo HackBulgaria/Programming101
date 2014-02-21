@@ -1,6 +1,6 @@
 A bunch of simple problems, to warm up with Python. Those are the regular programming problems, that you meet in every beginners course.
 
-The solutions should be written for Python 3.* verion.
+The solutions should be written for Python 3.* version.
 
 ## Problem 0
 
@@ -31,7 +31,7 @@ def nth_fibonacci(n):
 
 Given an integer, write a function, called ```sum_of_digits(n)``` that calculates the sum of the digits of n.
 
-If a negative number is given, the function should work as if it was possitive.
+If a negative number is given, the function should work as if it was positive.
 
 For example, if n is 1325132435356, the digit's sum is 43.
 If n is -10, the sum is 1 + 0 = 1
