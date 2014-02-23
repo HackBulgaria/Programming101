@@ -404,3 +404,47 @@ def count_consonants(str):
 >>> count_consonants("A nice day to code!")
 6
 ```
+
+## Problem 14 - Turn a number into a list of digits
+
+Implement a function, called ```number_to_list(n)``` which takes an integer ```n``` and returns a list, containing the digits of ```n```
+
+### Signature
+
+```python
+def number_to_list(n):
+    # Implementation
+```
+
+### Test Examples
+
+```
+>>> number_to_list(123)
+[1, 2, 3]
+>>> number_to_list(99999)
+[9, 9, 9, 9, 9]
+>>> number_to_list(123023)
+[1, 2, 3, 0, 2, 3]
+```
+
+## Problem 15 - Turn a list of digits into a number
+
+Implement a function, called ```list_to_number(digits)``` which takes a list of digits (integers) and returns the number, containing those digits.
+
+### Signature
+
+```python
+def list_to_number(digits):
+    # Implementation
+```
+
+### Test Examples
+
+```
+>>> list_to_number([1,2,3])
+123
+>>> list_to_number([9,9,9,9,9])
+99999
+>>> list_to_number([1,2,3,0,2,3])
+123023
+```
