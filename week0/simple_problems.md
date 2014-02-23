@@ -196,3 +196,38 @@ True
 >>> sevens_in_a_row([7,2,1,6,2], 1)
 True
 ```
+
+## Problem 7 - Integer Palindroms
+
+A palindrom is а word or a phrase or a number, that when reversed, stays the same.
+
+For example, the following sequences are palindroms : "azobi4amma4iboza" or "anna".
+
+But this time, we are not interested in words but numbers.
+A number palindrom is a number, that taken backwards, remains the same.
+
+For example, the numbers 1, 4224, 9999, 1221 are number palindroms.
+
+Implement a function, called ```is_int_palindrom(n)``` which takes an integer and returns True, if this integer is a palindrom.
+
+### Signature
+
+```python
+def is_int_palindrom(n):
+    # implementation
+```
+
+### Test examples
+
+```
+>>> is_int_palindrom(1)
+True
+>>> is_int_palindrom(42)
+False
+>>> is_int_palindrom(100001)
+True
+>>> is_int_palindrom(999)
+True
+>>> is_int_palindrom(123)
+False
+```
