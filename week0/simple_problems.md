@@ -351,7 +351,7 @@ def count_substrings(haystack, needle):
 
 ## Problem 12 - Vowels in a string
 
-Implement a function, called ```count_vowels(str)``` which returns the count of all vowels in the given string ```str```. __Count uppercase volwes as well!__
+Implement a function, called ```count_vowels(str)``` which returns the count of all vowels in the given string ```str```. __Count uppercase vowels as well!__
 
 The vowels are ```aeiouy```.
 
@@ -375,4 +375,32 @@ def count_vowels(str):
 22
 >>> count_vowels("A nice day to code!")
 8
+```
+
+## Problem 13 - Consonants in a string
+
+Implement a function, called ```count_consonants(str)``` which returns the count of all consonants in the given string ```str```. __Count uppercase consonants as well!__
+
+The consonants are ```bcdfghjklmnqrstvwxz```.
+
+### Signature
+
+```python
+def count_consonants(str):
+    # Implementation
+```
+
+### Test examples
+
+```
+>>> count_consonants("Python")
+4
+>>> count_consonants("Theistareykjarbunga") #It's a volcano name!
+11
+>>> count_consonants("grrrrgh!")
+7
+>>> count_consonants("Github is the second best thing that happend to programmers, after the keyboard!")
+44
+>>> count_consonants("A nice day to code!")
+6
 ```
