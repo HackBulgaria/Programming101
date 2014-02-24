@@ -2,7 +2,7 @@ A bunch of simple problems, to warm up with Python. Those are the regular progra
 
 The solutions should be written for Python 3.* version.
 
-## Problem 0
+## Problem 0 - N-th Fibonacci
 
 The most annoying problem of all. Implement a function, called ```nth_fibonacci(n)``` that returns the n-th fibonacci number, given by the argument.
 
@@ -27,7 +27,7 @@ def nth_fibonacci(n):
 >>>
 ```
 
-## Problem 1
+## Problem 1 - Sum all digits of a number
 
 Given an integer, implement a function, called ```sum_of_digits(n)``` that calculates the sum of the digits of n.
 
@@ -65,7 +65,7 @@ def sum_of_digits(n):
 1
 ```
 
-## Problem 2
+## Problem 2 - Sum the minimum and maximum elements
 
 Given an array of integers, implement a function, called ```sum_of_min_and_max(arr)```, that calculates and returns the sum of the largest and the smallest integers in the array.
 
@@ -88,7 +88,7 @@ def sum_of_min_and_max(arr):
 2
 ```
 
-## Problem 3
+## Problem 3 - Sum all divisors of an integer
 
 Given an integer, implement a function, called ```sum_of_divisors(n)``` that calculates the sum of all divisors of n.
 
@@ -115,7 +115,7 @@ def sum_of_divisors(n):
 2340
 ```
 
-## Problem 4
+## Problem 4 - Check if integer is prime
 
 Given an integer, implement a function, called ```is_prime(n)``` which returns True if n is a prime number. You should handle the case with negative numbers too.
 
@@ -145,7 +145,7 @@ True
 False
 ```
 
-## Problem 5
+## Problem 5 - Check if a number has a prime number of divisors
 
 Given an integer, implement a function, called ```prime_number_of_divisors(n)``` which returns True if the number of divisors of n is a prime number. False otherwise.
 
@@ -170,7 +170,7 @@ False
 True
 ```
 
-## Problem 6
+## Problem 6 - Are there n sevens in a row?
 
 Implement a function, called ```sevens_in_a_row(arr, n)```, which takes an array of integers ```arr``` and a number ```n > 0```
 
