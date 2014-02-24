@@ -4,7 +4,7 @@ The solutions should be written for Python 3.* version.
 
 ## Problem 0
 
-The most annoying problem of all. Write a function, called ```nth_fibonacci(n)``` that returns the n-th fibonacci number, given by the argument.
+The most annoying problem of all. Implement a function, called ```nth_fibonacci(n)``` that returns the n-th fibonacci number, given by the argument.
 
 ### Signature
 
@@ -29,7 +29,7 @@ def nth_fibonacci(n):
 
 ## Problem 1
 
-Given an integer, write a function, called ```sum_of_digits(n)``` that calculates the sum of the digits of n.
+Given an integer, implement a function, called ```sum_of_digits(n)``` that calculates the sum of the digits of n.
 
 If a negative number is given, the function should work as if it was positive.
 
@@ -67,7 +67,7 @@ def sum_of_digits(n):
 
 ## Problem 2
 
-Given an array of integers, write a function, called ```sum_of_min_and_max(arr)```, that calculates and returns the sum of the largest and the smallest integers in the array.
+Given an array of integers, implement a function, called ```sum_of_min_and_max(arr)```, that calculates and returns the sum of the largest and the smallest integers in the array.
 
 Don't bother for the case when the array is empty.
 
@@ -90,7 +90,7 @@ def sum_of_min_and_max(arr):
 
 ## Problem 3
 
-Given an integer, write a function, called ```sum_of_divisors(n)``` that calculates the sum of all divisors of n.
+Given an integer, implement a function, called ```sum_of_divisors(n)``` that calculates the sum of all divisors of n.
 
 For example, the divisors of 8 are 1,2,4 and 8 and ```1 + 2 + 4 + 8 = 15```
 The divisors of 7 are 1 and 7, which makes the sum = 8
@@ -117,7 +117,7 @@ def sum_of_divisors(n):
 
 ## Problem 4
 
-Given an integer, write a function, called ```is_prime(n)``` which returns True if n is a prime number. You should handle the case with negative numbers too.
+Given an integer, implement a function, called ```is_prime(n)``` which returns True if n is a prime number. You should handle the case with negative numbers too.
 
 A primer number is a number, that is divisible only by 1 and itself.
 
@@ -147,7 +147,7 @@ False
 
 ## Problem 5
 
-Given an integer, write a function, called ```prime_number_of_divisors(n)``` which returns True if the number of divisors of n is a prime number. False otherwise.
+Given an integer, implement a function, called ```prime_number_of_divisors(n)``` which returns True if the number of divisors of n is a prime number. False otherwise.
 
 For example, the divisors of 8 are 1,2,4 and 8, a total of 4. 4 is not a prime.
 The divisors of 9 are 1,3 and 9, a total of 3, which is a prime number.
@@ -172,7 +172,7 @@ True
 
 ## Problem 6
 
-Write a function, called ```sevens_in_a_row(arr, n)```, which takes an array of integers ```arr``` and a number ```n > 0```
+Implement a function, called ```sevens_in_a_row(arr, n)```, which takes an array of integers ```arr``` and a number ```n > 0```
 
 The function returns True, __if there are n consecutive sevens__ in ```arr```
 
