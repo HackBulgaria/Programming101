@@ -33,7 +33,7 @@ Given an integer, implement a function, called ```sum_of_digits(n)``` that calcu
 
 If a negative number is given, the function should work as if it was positive.
 
-For example, if n is 1325132435356, the digit's sum is 43.
+For example, if n is ```1325132435356```, the digit's sum is 43.
 If n is -10, the sum is 1 + 0 = 1
 
 Keep in mind that in Python, there is a special operator for integer division:
@@ -176,7 +176,7 @@ Implement a function, called ```sevens_in_a_row(arr, n)```, which takes an array
 
 The function returns True, __if there are n consecutive sevens__ in ```arr```
 
-For example, if ```arr``` is [10,8,7,6,7,7,7,20,-7] and n is 3, the function should return True. Otherwise, it returns False
+For example, if ```arr``` is ```[10, 8, 7, 6, 7, 7, 7, 20, -7]``` and n is 3, the function should return True. Otherwise, it returns False
 
 ### Signature
 
@@ -284,7 +284,7 @@ False
 False
 ```
 
-## Problem 10 - Is a number balanced?
+## Problem 10 - Is number balanced?
 
 A number is called balanced, if we take the middle of it and the sum of the left and right parts are equal.
 
@@ -347,6 +347,8 @@ def count_substrings(haystack, needle):
 4
 >>> count_substrings("We have nothing in common!", "really?")
 0
+>>> count_substrings("This is this and that is this", "this")  # "This" != "this"
+2
 ```
 
 ## Problem 12 - Vowels in a string
@@ -481,9 +483,9 @@ Slope style featured as a new snowboarding discipline in the Sochi 2014 Winter O
 
 To get a medal, you need to get maximum score from the judges.
 
-All judges give you a score - a floating point number between 0 and 100. When all scores from all judges are given, the final score is calculated by the following algorithm:
+All judges give you a score - a floating point number between 0 and 100. When all scores are given, the final score is calculated by the following algorithm:
 
-> Remove the largest and smallest score. From the rest, take the average.
+> Remove the largest and the smallest score. From the rest, take the average.
 
 Implement a function, called ```slope_style_score(scores)``` where ```scores``` is a list of floating point numbers.
 
@@ -508,7 +510,7 @@ def slope_style_score(scores):
 >>> slope_style_score([96, 95.5, 93, 89, 92])
 93.5
 ```
-## Problem 18 - Is a sequence increasing?
+## Problem 18 - Increasing sequence?
 
 Implement a function, called ```is_increasing(seq)``` where ```seq``` is a list of integers.
 
@@ -540,7 +542,7 @@ False
 False
 ```
 
-## Problem 19 - Is a sequence decreasing?
+## Problem 19 - Descreasing sequence?
 
 Implement a function, called ```is_decreasing(seq)``` where ```seq``` is a list of integers.
 
@@ -624,7 +626,7 @@ def what_is_my_sign(day, month):
 
 Given an integer ```n```, we can factor it in the following form:
 
-> n = p1^a1 * p2^a2 ... * pn^an
+> n = p1^a1 * p2^a2 * ... * pn^an
 
 Where each p is a prime number and each a is an integer and p^a means p to the power of a.
 
