@@ -636,7 +636,7 @@ Lets see few examples
 > 25 = 5^2
 > 356 = 2^2 * 89 ^ 1
 
-Implement a function, called ```prime_factorization(n)``` which takes an integer and returns a list of tuples ```(pi, ai)```, which is the result of the factorisation.
+Implement a function, called ```prime_factorization(n)``` which takes an integer and returns a list of tuples ```(pi, ai)```, which is the result of the factorization.
 
 The list should be sorted in increasing order of the prime numbers.
 
@@ -660,4 +660,31 @@ def prime_factorization(n):
 [(89, 1)] # 89 is a prime number
 >>> prime_factorization(1000)
 [(2, 3), (5, 3)]
+```
+## Problem 22 - Calculate coins
+
+This problem is from the [Python 2013 course in FMI](http://2013.fmi.py-bg.net/)
+
+Implement a function, called ```calculate_coins(sum)``` where sum is a floating point number.
+
+The function should return a dictionary, that represents a way to get the sum with minimal number of coins.
+
+__The coins that we can use are with values 1,2,100,5,10,50,20.__
+
+Check the examples below.
+
+### Signature
+
+```python
+def calculate_coins(sum):
+    # Implementation
+```
+
+### Test examples
+
+```
+>>> calculate_coins(0.53)
+{1: 1, 2: 1, 100: 0, 5: 0, 10: 0, 50: 1, 20: 0} # We pay with one coin of value 50 and two coins of value 2 and one coin of value 1 - that's the minimal number of coins to get to 0.53
+>>> calculate_coins(8.94)
+{1: 0, 2: 2, 100: 8, 5: 0, 10: 0, 50: 1, 20: 2}
 ```
