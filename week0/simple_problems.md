@@ -383,7 +383,7 @@ def count_vowels(str):
 
 Implement a function, called ```count_consonants(str)``` which returns the count of all consonants in the given string ```str```. __Count uppercase consonants as well!__
 
-The consonants are ```bcdfghjklmnqrstvwxz```.
+The consonants are ```bcdfghjklmnpqrstvwxz```.
 
 ### Signature
 
