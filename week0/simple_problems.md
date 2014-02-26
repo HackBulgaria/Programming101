@@ -281,7 +281,7 @@ False
 >>> contains_digits(123456789, [1,2,3,0])
 False
 >>> contains_digits(456, [])
-False
+True
 ```
 
 ## Problem 10 - Is number balanced?
