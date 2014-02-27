@@ -124,17 +124,17 @@ def prepare_meal(number):
 ### Test examples
 
 ```
->>> spam_and_eggs(5)
+>>> prepare_meal(5)
 "eggs"
->>> spam_and_eggs(3)
+>>> prepare_meal(3)
 "spam"
->>> spam_and_eggs(27)
+>>> prepare_meal(27)
 "spam spam spam"
->>> spam_and_eggs(15)
+>>> prepare_meal(15)
 "spam and eggs"
->>> spam_and_eggs(45)
+>>> prepare_meal(45)
 "spam spam and eggs"
->>> spam_and_eggs(7)
+>>> prepare_meal(7)
 ""
 ```
 
@@ -312,7 +312,7 @@ def nth_fib_lists(listA, listB, n)
 []
 ```
 
-## Problem 31 - Is member of nth fibonacci lists
+## Problem 31.5 - Is member of nth fibonacci lists
 
 Implement a function, called ```member_of_nth_fib_lists(listA, listB, needle)``` which checks if ```needle``` is a part of the fibonacci sequence, created by ```listA``` and ```listB``` for the first two elements.
 
