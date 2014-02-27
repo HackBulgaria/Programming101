@@ -8,7 +8,6 @@ Given a list of strings, implement a function, called ```count_words(arr)``` whi
 
 Where ```count``` is the count of occurrences of the __word__ in the list ```arr```.
 
-__The result should be sorted by keys alphabetically.__
 
 ### Signature
 
