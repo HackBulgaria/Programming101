@@ -21,11 +21,11 @@ file = open(filename, "r") # Here, "r" stands for open for reading
 # file is a file object
 # to get all the content:
 
-content = f.read()
+content = file.read()
 print(content)
 
 # when we are done, we close the file
-f.close()
+file.close()
 ```
 
 If we want to iterate on every line, we can do the following:
