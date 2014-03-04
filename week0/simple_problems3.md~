@@ -111,7 +111,7 @@ __IMPORTANT:__ The first argument is always the file name!
 
 ## Problem F1 - Implement the cat command - Print file contents
 
-In linux, there is a very useful command, called ```cat```:
+In linux, there is a very usefull command, called ```cat```:
 
 ```
 $ cat file.txt
