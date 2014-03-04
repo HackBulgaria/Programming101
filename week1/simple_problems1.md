@@ -5,9 +5,11 @@ The solutions should be written for Python 3.* version.
 
 ## Problem 0 - Students Attendance
 
-Implement a Python program, called attendance.py that will help us organize our course.
+Implement a Python program, called ```attendance.py``` that will help us organize our course.
 
-We are going to implement a program, that waits for commands from the user and acts on them. Some commands may affect other commands and the program loops forever, until finish command is issued.
+We are going to implement a program, that waits for commands from the user and acts on them. Some commands may affect other commands and the program loops forever, until ```finish``` command is issued.
+
+First of all, we have a text file, called ```students``` which holds all students, attending the course. This will bne our database.
 
 Here is an example start of the program:
 
@@ -18,16 +20,14 @@ Enter command>
 
 The user can enter one of the following commands:
 
-```
 * ```create```
 * ```add <name>```
 * ```list``` 
 * ```load```
 * ```status```
 * ```statistics```
-```
 
-Now let's go through each of the commands:
+Now let us go through each of the commands:
 
 __create__
 
@@ -39,21 +39,21 @@ The commands return the following string:
 ```
 New file created and loaded: attendance_2014_03_01_11_00_00
 ```
-__If you awready have a file for the current date you must see these error__
+__If you already have a file for the current date you must see these error__
 
 ```
 Enter command>create
 New file created and loaded: attendance_2014_03_01_11_00_00
 Enter command>create
-You awready have a file for today it is: attendance_2014_03_01_11_00_00
+You already have a file for today it is: attendance_2014_03_01_11_00_00
 ```
 
 __add__
 
 ```
-Enter command>add Rado 
+Enter command>add Rado
 Rado is now attending
-Enter command>add Ivo 
+Enter command>add Ivo
 Ivo is now attending
 ```
 
