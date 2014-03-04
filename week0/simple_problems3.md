@@ -74,7 +74,7 @@ Python is awesome.
 You should check it out!
 ```
 
-We will se our content!
+We will see our content!
 
 __File arguments:__
 
