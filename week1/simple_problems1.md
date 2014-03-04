@@ -11,7 +11,7 @@ We are going to implement a program, that waits for commands from the user and a
 
 First of all, we have a text file, called ```students``` which holds all students, attending the course. This will be our database.
 
-You can find the students file in the same week1 directory in Github.
+[You can find the students file in the same week1 directory in Github.](https://github.com/HackBulgaria/Programming101/blob/master/week1/students)
 Your program is working with the given students.
 
 Here is an example start of the program:
@@ -24,6 +24,7 @@ Enter command>
 The user can enter one of the following commands:
 
 * ```create```
+* ```change_date``` <date>
 * ```add <name>```
 * ```list```
 * ```load```
@@ -54,6 +55,22 @@ New file created and loaded: attendance_2014_03_01
 Enter command>create
 You already have a file for today it is: attendance_2014_03_01
 ```
+
+__change_date__
+
+With this command, we can change the current date and create new file.
+Here is an example:
+
+```
+Enter command> change_date 02/03/2014
+Date changed to 02/03/2014.
+Current file saved & discarded.
+You can create or load.
+```
+
+The format of the date is ```DD/MM/YYYY```
+
+After changing the date, discard the currently created file. The user can now create new one for the given date or load an old file.
 
 __add__
 
