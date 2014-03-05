@@ -1,6 +1,6 @@
 # How to run your Python programs and test them.
 
-To illustrate things, let's imagine that we have to imlement a python program, that calculates the sum of two integers.
+To illustrate things, let's imagine that we have to implement a python program, that calculates the sum of two integers.
 
 Here we have the code:
 
@@ -85,4 +85,4 @@ Ran 1 tests in 0.000s
 OK
 ```
 
-And you are one step closer from test-driven development.
+And you are one step closer to test-driven development.

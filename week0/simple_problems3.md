@@ -35,7 +35,7 @@ for line in file:
     print(line)
 ```
 
-Each line ends up with a special character, called line breka - ```\n```.
+Each line ends up with a special character, called line break - ```\n```.
 In order to get each line as an element of a list, you can do the following:
 
 ```python
@@ -74,7 +74,7 @@ Python is awesome.
 You should check it out!
 ```
 
-We will se our content!
+We will see our content!
 
 __File arguments:__
 
@@ -90,7 +90,7 @@ The simplest way to get your arguments is the following:
 
 ```python
 # argv.py
-imprort sys
+import sys
 
 for arg in sys.argv:
     print(arg)
@@ -111,7 +111,7 @@ __IMPORTANT:__ The first argument is always the file name!
 
 ## Problem F1 - Implement the cat command - Print file contents
 
-In linux, there is a very usefull command, called ```cat```:
+In linux, there is a very useful command, called ```cat```:
 
 ```
 $ cat file.txt

@@ -197,38 +197,38 @@ True
 True
 ```
 
-## Problem 7 - Integer Palindroms
+## Problem 7 - Integer Palindromes
 
-A palindrom is а word or a phrase or a number, that when reversed, stays the same.
+A palindrome is а word or a phrase or a number, that when reversed, stays the same.
 
-For example, the following sequences are palindroms : "azobi4amma4iboza" or "anna".
+For example, the following sequences are palindromes : "azobi4amma4iboza" or "anna".
 
 But this time, we are not interested in words but numbers.
-A number palindrom is a number, that taken backwards, remains the same.
+A number palindrome is a number, that taken backwards, remains the same.
 
-For example, the numbers 1, 4224, 9999, 1221 are number palindroms.
+For example, the numbers 1, 4224, 9999, 1221 are number palindromes.
 
-Implement a function, called ```is_int_palindrom(n)``` which takes an integer and returns True, if this integer is a palindrom.
+Implement a function, called ```is_int_palindrome(n)``` which takes an integer and returns True, if this integer is a palindrome.
 
 ### Signature
 
 ```python
-def is_int_palindrom(n):
+def is_int_palindrome(n):
     # implementation
 ```
 
 ### Test examples
 
 ```
->>> is_int_palindrom(1)
+>>> is_int_palindrome(1)
 True
->>> is_int_palindrom(42)
+>>> is_int_palindrome(42)
 False
->>> is_int_palindrom(100001)
+>>> is_int_palindrome(100001)
 True
->>> is_int_palindrom(999)
+>>> is_int_palindrome(999)
 True
->>> is_int_palindrom(123)
+>>> is_int_palindrome(123)
 False
 ```
 
@@ -286,7 +286,7 @@ True
 
 ## Problem 10 - Is number balanced?
 
-A number is called balanced, if we take the middle of it and the sum of the left and right parts are equal.
+A number is called balanced, if we take the middle of it and the sums of the left and right parts are equal.
 
 For example, the number ```1238033``` is balanced, bacause it has a left part, equal to 123, and right part, equal ot 033.
 
@@ -485,11 +485,11 @@ To get a medal, you need to get maximum score from the judges.
 
 All judges give you a score - a floating point number between 0 and 100. When all scores are given, the final score is calculated by the following algorithm:
 
-> Remove the largest and the smallest score. From the rest, take the average.
+> Remove the largest and the smallest scores. From the rest, take the average.
 
 Implement a function, called ```slope_style_score(scores)``` where ```scores``` is a list of floating point numbers.
 
-The function should calculate and return the final score, according to the algoritm above.
+The function should calculate and return the final score, according to the algorithm above.
 
 The final score should be rounded to two decimal points. This means that if we get a score ```94.66666666666667``` it should be rounded to ```94.66```
 
@@ -578,7 +578,7 @@ False
 
 This problem is from the Python 2013 course in FMI. [Link to original problem statement.](http://2013.fmi.py-bg.net/tasks/1)
 
-Implement a function, called ```what_is_my_sign(day, month)``` which takes two integer (one for the day and one for the month) and returns the name of the zodiac for the given time period.
+Implement a function, called ```what_is_my_sign(day, month)``` which takes two integers (one for the day and one for the month) and returns the name of the zodiac for the given time period.
 
 Consider the following zodiac table ([Or check wikipedia](http://en.wikipedia.org/wiki/Zodiac#Table_of_dates)) :
 
