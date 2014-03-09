@@ -27,7 +27,7 @@ def count_words(arr):
 
 ## Problem 24 - Unique words
 
-Implement a function, called ```unique_words_count(arr)``` which returns the unique words count in ```arr```.
+Implement a function, called ```unique_words_count(arr)``` which returns the number of different words in ```arr```.
 
 ```arr``` is a list of strings.
 
