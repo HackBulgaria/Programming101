@@ -334,7 +334,7 @@ __Print the words:__
 
 ```
 $ python wc.py words story.txt
-169
+166
 ```
 
 __Print the lines:__
