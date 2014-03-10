@@ -13,5 +13,6 @@ In order to get most of the exercise, we recommend you to watch the following vi
 * [Test Driven Development - A Love Story](http://www.youtube.com/watch?v=nBtO1UOK9Hs) [English] - A 30 minutes presentation about TDD in real life.
 * [A lecture by Stefan Kanev about Unit Tests and TDD from VarnaCondf](http://www.youtube.com/watch?v=knQRUY9Fs5o) [Bulgarian]
 * Check the Python docs for the UnitTest class - http://docs.python.org/3/library/unittest.html
+* The Three Rules of TDD - http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd - by Uncle Bob
 
 This will give you the essential knowledge, to rock the problems during the live exercise!
