@@ -253,8 +253,9 @@ def decrease_time():
 
 def is_timer_running():
     '''
-    Returns True or False, if the timer is running
-    and there are still seconds left (> 0)
+    Returns True, if the timer is running
+    and there are still seconds left (> 0),
+    else False
     '''
     pass
 
