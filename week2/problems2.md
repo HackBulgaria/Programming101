@@ -236,6 +236,28 @@ The first free spawning point is the one, that we get if we start from top-left 
 
 If the spawning is successful - return True. Otherwise (If there are no more spawning points, return False)
 
+
+So, if we have the map above, let's take the following example:
+
+```
+>>> map.spawn("player_1", some_hero_instance)
+True
+>>> map.print_map()
+H.##......
+#.##..###.
+#.###.###.
+#.....###.
+###.#####S
+>>> map.spawn("player_2", some_orc_instance)
+True
+>>> map.print_map()
+H.##......
+#.##..###.
+#.###.###.
+#.....###.
+###.#####O
+```
+
 ### move
 
 Now, implemented a method ```move(player_name, direction)``` where:
@@ -245,10 +267,33 @@ Now, implemented a method ```move(player_name, direction)``` where:
 
 This should move the given player in the desired direction.
 
+__For example:__
+
+```
+>>> map.move("player_1", "right")
+True
+>>> map.print_map()
+.H##......
+#.##..###.
+#.###.###.
+#.....###.
+###.#####O
+>>> map.move("player_1", "up")
+False
+>>> map.move("player_2", "up")
+True
+>>> map.print_map()
+.H##......
+#.##..###.
+#.###.###.
+#.....###O
+###.#####.
+```
+
 Here are the cases:
 
 * If you move into an obstacle, return False and don't make the move.
-* If you move outside hte map - return False and don't make the move.
+* If you move outside the map - return False and don't make the move.
 * If you move into an enemy, create a new Fight and simulate it!
 
 ## Dungeons and Pythons
