@@ -84,7 +84,7 @@ But this time, we are going one level up - we are having orcs!
 In ```orc.py```, implement an Orc class with the following attributes, given to the constructor
 
 * ```name``` - every orc has a name! A terrifying name.
-* ```health``` - unlike our hero, every Orc starts with a different level of health
+* ```health``` - the starting health for the Orc. This is also his maximum health
 * ```berserk_factor``` - a floating point number between 1 and 2. This factor is used, when the Orc goes berserk! __The output damage from the orc is multipled by that factor.__ (If a factor, larger than 2 or smaller than 1 is given, it is bounded by the limit (1 or 2))
 
 Just like our hero, the orc has the same methods for healing, damage and life status:
