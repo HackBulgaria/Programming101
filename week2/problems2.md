@@ -85,7 +85,7 @@ In ```orc.py```, implement an Orc class with the following attributes, given to 
 
 * ```name``` - every orc has a name! A terrifying name.
 * ```health``` - unlike our hero, every Orc starts with a different level of health
-* ```berserk_factor``` - a floating point number between 1 and 2. This factor is used, when the Orc goes berserk! (If a factor, larger than 2 or smaller than 1 is given, it is bounded by the limit (1 or 2))
+* ```berserk_factor``` - a floating point number between 1 and 2. This factor is used, when the Orc goes berserk! __The output damage from the orc is multipled by that factor.__ (If a factor, larger than 2 or smaller than 1 is given, it is bounded by the limit (1 or 2))
 
 Just like our hero, the orc has the same methods for healing, damage and life status:
 
@@ -218,4 +218,37 @@ For now, implement a method, called ```print_map()``` which prints the map to th
 
 ### Problem 7 - It's spawning time.
 
-This one goes for the bonus round. If someone reaches here, notify me!
+So, we want to spawn heroes and orcs in our map. To do so, there are __spawning points__ in the map, marked with ```S```
+
+### spawn
+
+Implement a method, called ```spawn(player_name, entity)``` where:
+
+* ```player_name``` is a string, uniquely identifying the player
+* ```entity``` is either Orc or Hero
+
+This one takes the first free spawning point in the map and populates it with:
+
+* ```H``` if entity is a Hero
+* ```O``` if entitity is an Orc
+
+The first free spawning point is the one, that we get if we start from top-left and walk left.
+
+If the spawning is successful - return True. Otherwise (If there are no more spawning points, return False)
+
+### move
+
+Now, implemented a method ```move(player_name, direction)``` where:
+
+* ```player_name``` is the unique identifier for the player
+* ```direction``` is ```up```, ```down```, ```left``` and ```right```
+
+This should move the given player in the desired direction.
+
+Here are the cases:
+
+* If you move into an obstacle, return False and don't make the move.
+* If you move outside hte map - return False and don't make the move.
+* If you move into an enemy, create a new Fight and simulate it!
+
+## Dungeons and Pythons
