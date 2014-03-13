@@ -18,13 +18,13 @@ If our hero is implemented in ```hero.py```, here is a simple usage in the __pyt
 
 ```
 >>> import hero
->>> h = hero.Hero("Bron", 100, "The DragonSlayer")
+>>> h = hero.Hero("Bron", 100, "DragonSlayer")
 >>> h
 <hero.Hero object at 0x7f5aa39c30d0>
 >>> h.name
 'Bron'
 >>> h.nickname
-'The DragonSlayer'
+'DragonSlayer'
 >>> h.health
 100
 ```
@@ -114,6 +114,9 @@ After this, refactor your code and tests, in order to inherit from that Entity a
 If you want to call a superconstructor, you can do it like so:
 
 ```python
+from entity import Entity
+
+
 class Hero(Entity):
     def __init__(self, name, health, nickname):
         super().__init__(name, health)
@@ -137,6 +140,13 @@ Implement a method, called ```critical_hit()``` which returns True, if the weapo
 
 Otherwise, False
 
+__Example__:
+
+```
+>>> from weapon import Weapon
+>>> axe = Weapon("Mighty Axe", 25, 0.2)
+```
+
 ### Problem 4 - Equipping some weapons
 
 It's time to Equip our fighters.
@@ -155,8 +165,8 @@ Now, it is time to make them fight!
 
 Implement a class ```Fight``` which takes two arguments to the constructor:
 
-* A hero instance
-* An orc instance
+* A ```Hero``` instance
+* An ```Orc``` instance
 
 The ```Fight``` class flips a coin and decides which will attack first. (Imagine, take random between 0 and 100. If it is < 50, hero attacks first, else orc attacks first)
 
