@@ -18,15 +18,15 @@ If our hero is implemented in ```hero.py```, here is a simple usage in the __pyt
 
 ```
 >>> import hero
->>> h = hero.Hero("Bron", "The DragonSlayer", 56)
+>>> h = hero.Hero("Bron", 100, "The DragonSlayer")
 >>> h
 <hero.Hero object at 0x7f5aa39c30d0>
 >>> h.name
 'Bron'
 >>> h.nickname
 'The DragonSlayer'
->>> h.age
-56
+>>> h.health
+100
 ```
 ### known_as() method
 
