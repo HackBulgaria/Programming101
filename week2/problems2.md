@@ -43,6 +43,9 @@ Bron the DragonSlayer
 ### get_health()
 
 Every hero starts with the given ```health```.
+
+__This ```health``` is the maximum health for the hero!__
+
 When a hero reaches 0 ```health``` he is considered death.
 
 Add this attribute to our hero and implement the following methods:
@@ -69,7 +72,7 @@ Implement a method, called ```take_healing(healing_points)``` which heals our he
 Here are the requirements:
 
 * If our hero is dead, the method should return False. It's too late to heal our hero
-* We cannot heal our hero above 100 health
+* We cannot heal our hero above the maximum health, which is given by ```health```
 * If healing is successful (Our hero is not dead), the method should return True
 
 ## Problem 1 - The Orc.
