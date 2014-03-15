@@ -24,14 +24,14 @@ Here is an example map:
 ```
 S..P..........PPI###############
 .#########.#####################
-.....P.........................B
+.....P.........................A
 .####.##.###.###################
 P####.##.###.#####.....#########
 .####.##.###.#####.###.##IIIIII#
 P####.I..###.#####.###.##P....I#
 .####P##P###.......###.##P######
-P####.##.############.........B.
-I####B...######################G
+P####.##.############.........A.
+I####A...######################G
 ```
 
 Our maps are going to be represented as a matrix of strings, where each character, means something special:
@@ -41,7 +41,7 @@ Our maps are going to be represented as a matrix of strings, where each characte
 * ```#``` is an obstacle - you cannot move through it
 * ```.``` is a walkable path
 * ```I``` is an item - it can be either a new weapon or a healing potion
-* ```B``` is a boss enemy - a stronger python, ready to kick our ass
+* ```A``` is a boss enemy - an Anaconda, ready to kick our ass
 * ```G``` is the Gateway, to the next level
 
 #### Levels
@@ -59,7 +59,7 @@ __If there are no next levels, the game is over and the hero has won!__
 * ```S``` is the spawning point for our hero. There can be multiple spawning points in our map. When spawning a hero, choose one point by random. __Every other Spawning point becomes a walkable path.__
 * ```P``` is a Python - this is your enemy! If a hero steps into a Python, this triggers a fight. If our hero dies, the game is over.
 * ```I``` is an item - __it can be either a new weapon or a healing potion.__ When a hero steps into it, troll a dice and decide what it should be. Also, pick at random, the attributes of the chosen weapon or a potion.
-* ```B``` is a boss. Same as the Python, but stronger.
+* ```A``` is a boss Anaconda. Same as the Python, but stronger.
 * ```G``` is the Gateway, to the next level - when a hero steps into this, the next level is loaded.
 
 
@@ -86,8 +86,8 @@ P####.##.###.#####.....#########
 .####.##.###.#####.###.##IIIIII#
 P####.I..###.#####.###.##P....I#
 .####P##P###.......###.##P######
-P####.##.############.........B.
-I####B...######################G
+P####.##.############.........A.
+I####A...######################G
 ```
 
 #### move
@@ -112,8 +112,8 @@ P####.##.###.#####.....#########
 .####.##.###.#####.###.##IIIIII#
 P####.I..###.#####.###.##P....I#
 .####P##P###.......###.##P######
-P####.##.############.........B.
-I####B...######################G
+P####.##.############.........A.
+I####A...######################G
 ```
 
 The method should return False, if the move is not possible (Outside the map or into an obstacle). Otherwise, True
@@ -257,7 +257,7 @@ Implement (or inherit) the following methods, that are doing the same, as in our
 
 When our Hero steps into a Python, we should start a Fight!
 
-## The Boss
+## The Boss - An Anaconda
 
 Bosses are stronger Pythons. They are just like the regular python, but with one extra twist:
 
