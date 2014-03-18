@@ -18,7 +18,7 @@ The idea is to think how you can approach this problem as a team and work togeth
 
 We are not going to be clear on the specifications, so you will have a room for creativity and taking your own design decisions.
 
-__There are two important things:__
+__There are three important things:__
 
 * Use OOP
 * Use TDD
