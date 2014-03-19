@@ -197,6 +197,8 @@ Type help, to see a list of commands.
 [2] HackFMI
 [3] HackBulgaria - Java
 [4] HACK_LIST
+>create Test for Persistence
+New list <Test for Persistence> was created
 >exit
 $ python mail.py
 Hello Stranger! This is a cutting-edge, console-based mail-list!
@@ -206,6 +208,7 @@ Type help, to see a list of commands.
 [2] HackFMI
 [3] HackBulgaria - Java
 [4] HACK_LIST
+[5] Test for Persistence
 ```
 
 We should be able to save everything! You can use files for storage.
