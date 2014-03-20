@@ -37,6 +37,7 @@ Here is a full list of commands:
 * show_lists - Prints all lists to the screen. Each list is assigned with a unique identifier
 * show_list <unique_list_identifier> - Prints all people, one person at a line, that are subscribed for the list. The format is: <Name> - <Email>
 * add <unique_list_identifier> - Starts the procedure for adding a person to a mail list. The program prompts for name and email.
+* update_subscriber <unique_list_identifier> <unique_name_identifier> - updates the information for the given subscriber in the given list
 * remove_subscriber <unique_list_identifier> <unique_name_identifier> - Removes the given subscriber from the given list
 * create <list_name> - Creates a new empty list, with the given name.
 * search_email <email> - Performs a search into all lists to see if the given email is present. Shows all lists, where the email was found.
@@ -96,6 +97,27 @@ A person with the given email <radorado@hackbulgaria.com> is already in the list
 >show_list 2
 [1] Radoslav Georgiev - radorado@hackbulgaria.com
 [2] Ivaylo Bachvaroff - ivo@hackbulgaria.com
+```
+
+### Updating the information for a subscriber in a list
+
+We should be able to change the name and email fields for a given subscriber in a given list.
+
+This is achieved with the command ```update_subscriber <unique_list_identifier> <unique_name_identifier>```
+
+After running the command, the program should prompt you for new name and email. If we leave an empty string, it means the field stays the same.
+
+```
+>update_subscriber 2 1
+Updating: Radoslav Georgeiv - radorado@hackbulgaria.com
+Pres enter if you want the field to remain the same
+enter new name>
+enter new email>radorado@hackfmi.com
+Subscriber updated: Radoslav Georgiev - radorado@hackfmi.com
+>update_subscriber 3 1
+List with unique identifier <3> was not found.
+>update_subscriber 2 10
+Subscriber with identifider <10> was not found in the list <HackFMI>
 ```
 
 ### Removing subscribers from a given list:
