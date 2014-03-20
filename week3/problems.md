@@ -274,6 +274,41 @@ If we take a look at our JSON file:
 ]
 ```
 
+### Importing lists from JSON files
+
+Lets have the following json file, named ```Fools_and_Fools.json```:
+
+```json
+[
+    {
+        "name" : "Radoslav Georgiev",
+        "email" : "radorado@hackbulgaria.com"
+    },
+    {
+        "name" : "Ivaylo Bachvaroff",
+        "email" : "ivo@hackbulgaria.com"
+    }
+]
+```
+
+If we import the file, we should create a new list, called ```Fools and Fools``` with the given records inside:
+
+```
+>import Fools_and_Fools.json
+Creating a new list, called Fools and Fools.
+Loading 2 subscribers to the list.
+>show_lists
+[1] Hack Bulgaria
+[2] HackFMI
+[3] HackBulgaria - Java
+[4] HACK_LIST
+[5] Fools and Fools
+>show_list 5
+[1] Radoslav Georgeiv - radorado@hackbulgaria.com
+[2] Ivaylo Bachvaroff - ivo@hackbulgaria.com
+```
+
+
 ### The program should be persistent
 
 Check this magic:
