@@ -40,6 +40,7 @@ Here is a full list of commands:
 * update_subscriber <unique_list_identifier> <unique_name_identifier> - updates the information for the given subscriber in the given list
 * remove_subscriber <unique_list_identifier> <unique_name_identifier> - Removes the given subscriber from the given list
 * create <list_name> - Creates a new empty list, with the given name.
+* update <unique_list_identifier>  <new_list_name> - Updates the given list with a new name.
 * search_email <email> - Performs a search into all lists to see if the given email is present. Shows all lists, where the email was found.
 * merge_lists <list_identifier_1> <list_identifier_2> <new_list_name> - merges list1 and list2 into a new list, with the given name.
 * export <unique_list_identifier> - Exports the given list into JSON file, named just like the list. All white spaces are replaced by underscores.
@@ -142,7 +143,7 @@ Subscriber with identifider <3> was not found in the list <HackFMI>
 List with unique identifier <10> was not found.
 ```
 
-### Creating new lists
+### Creating lists
 
 This is very simple:
 
@@ -160,6 +161,30 @@ If we try to create an existing list, we get an error:
 ```
 >create Hack Bulgaria
 A list with name <Hack Bulgaria> already exists!
+```
+
+
+### Updating lists
+
+Of course, we should be able to change the name for a given list.
+
+This is achieved by the ```update <unique_list_identifier>  <new_list_name>``` command.
+
+```
+>update 1 HackBulgaria
+Updated <Hack Bulgaria> to <HackBulgaria>.
+>show_lists
+[1] HackBulgaria
+[2] HackFMI
+[3] HackBulgaria - Java
+>update 1 Hack Bulgaria
+Updated <HackBulgaria> to <Hack Bulgaria>.
+>show_lists
+[1] Hack Bulgaria
+[2] HackFMI
+[3] HackBulgaria - Java
+>update 10 THE_LIST_OF_ODIN
+List with unique identifier <10> was not found.
 ```
 
 ### Searching emails
