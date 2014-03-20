@@ -8,7 +8,7 @@ We are going to store information for our users (Name and Email) and put them in
 
 We are going to implement some operations like:
 
-* Creating lists & Adding people there
+* CRUD of Lists and People (Create Read Update Delete)
 * Checking if we have already added the given email to the given list
 * Searching in all lists for a given email
 * Merging two lists into a new one
@@ -37,6 +37,7 @@ Here is a full list of commands:
 * show_lists - Prints all lists to the screen. Each list is assigned with a unique identifier
 * show_list <unique_list_identifier> - Prints all people, one person at a line, that are subscribed for the list. The format is: <Name> - <Email>
 * add <unique_list_identifier> - Starts the procedure for adding a person to a mail list. The program prompts for name and email.
+* remove_subscriber <unique_list_identifier> <unique_name_identifier> - Removes the given subscriber from the given list
 * create <list_name> - Creates a new empty list, with the given name.
 * search_email <email> - Performs a search into all lists to see if the given email is present. Shows all lists, where the email was found.
 * merge_lists <list_identifier_1> <list_identifier_2> <new_list_name> - merges list1 and list2 into a new list, with the given name.
@@ -95,6 +96,28 @@ A person with the given email <radorado@hackbulgaria.com> is already in the list
 >show_list 2
 [1] Radoslav Georgiev - radorado@hackbulgaria.com
 [2] Ivaylo Bachvaroff - ivo@hackbulgaria.com
+```
+
+### Removing subscribers from a given list:
+
+We should have a way to delete subscribers from a given list.
+
+This is done with the ```remove_subscriber <unique_list_identifier> <unique_name_identifier>``` command:
+
+```
+>add 2
+name>Ivan Ivanov
+email>ivan@ivanov.com
+>show_list 2
+[1] Radoslav Georgiev - radorado@hackbulgaria.com
+[2] Ivaylo Bachvaroff - ivo@hackbulgaria.com
+[3] Ivan Ivanov - ivan@ivanov.com
+>remove_subscriber 2 3
+<Ivan Ivanov> was removed from the list <HackFMI>
+>remove_subscriber 2 3
+Subscriber with identifider <3> was not found in the list <HackFMI>
+>remove subscriber 10 1
+List with unique identifier <10> was not found.
 ```
 
 ### Creating new lists
