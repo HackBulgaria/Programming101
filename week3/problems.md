@@ -187,6 +187,26 @@ Updated <HackBulgaria> to <Hack Bulgaria>.
 List with unique identifier <10> was not found.
 ```
 
+### Removing lists
+
+This is the most scary command. We should be able to delete an entire list with all records inside.
+
+The command is ```delete <unique_list_identifier>```.
+The program should prompt a ```(Y/N)``` message, in order to prevent from accidental deleting of lists. (It happens!)
+
+```
+>delete 3
+Are you sure you want to delete <HackBulgaria - Java>?
+(Y/N)>Y
+<HackBulgaria - Java> was deleted.
+>delete 3
+List with unique identifier <3> was not found.
+>delete 1
+Are you sure you want to delete <Hack Bulgaria>?
+(Y/N)>N
+You crazy bastard. Stop playing with fire!
+```
+
 ### Searching emails
 
 We are going to have functionality to search our lists for a given email.
