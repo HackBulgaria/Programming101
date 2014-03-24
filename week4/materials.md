@@ -23,8 +23,14 @@ RDBMS (Relational Database Management System) is a software, that handles few ve
 
 We are going to use the most simple RDBMS - sqlite! It stores the entire data in a single file, located in the same directory as our scripts.
 
-Few good materials for getting a grasp of SQL:
+__Few good materials for getting a grasp of SQL:__
 
 * First, we will need some SQL syntax. This is a very good SQL tutorial - http://www.w3schools.com/sql/sql_intro.asp for learning the syntax!
 * Learn what is an SQL Injection (This will help you understand SQL) - https://www.youtube.com/watch?v=_jKylhJtPmI
 * SQL vs NoSQL is a good way to understand SQL :) - https://www.youtube.com/watch?v=rRoy6I4gKWU
+
+
+We are going to tackle sqlite:
+
+* Check the Python documentation for sqlite - http://docs.python.org/2/library/sqlite3.html
+* You can check the web page for sqlite for better understanding it - https://sqlite.org/
