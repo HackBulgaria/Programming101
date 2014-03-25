@@ -140,7 +140,7 @@ Execute the following statements:
 
 *
 ```sql
-INSERT INTO languages(id, language, answer, answered, guide) VALUES(9, "PHP", "$$$", 0, "Can you handle this piece of PHP?")
+INSERT INTO languages(id, language, answer, answered, guide) VALUES(9, "PHP", "$$$", 0, "Can you handle this piece of PHP?");
 ```
 *
 ```sql
