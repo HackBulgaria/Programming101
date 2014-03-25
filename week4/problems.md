@@ -241,9 +241,9 @@ command>list_employees
 4 - Petar Petrov - Marketing Manager
 5 - Maria Georgieva - COO
 command>monthly_spending
-The company is spending $17500 every month!
+The company is spending $26500 every month!
 command>yearly_spending
-The company is spending $331000 every year!
+The company is spending $439000 every year!
 command>add_employee
 name>Hristo Hristov
 monthly_salary>1200
