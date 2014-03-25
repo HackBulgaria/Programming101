@@ -97,7 +97,7 @@ SELECT id, language FROM languages;
 ```
 3.
 ```sql
-SELECT id, language, answer, aswered FROM languages;
+SELECT id, language, answer, answered FROM languages;
 ```
 4.
 ```sql
