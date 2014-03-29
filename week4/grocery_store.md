@@ -165,8 +165,8 @@ Again, the data will be imported from a json. File name is spring_customers.json
     },
     {
         "name": "Rado",
-        "price_per_kg": 3.2,
-        "quantity_in_kg": 12.2
+        "kg_bought": 3.2,
+        "money_spent": 12.2
     }
 ]
 ```
