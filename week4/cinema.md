@@ -25,15 +25,15 @@ No complex stuff here. Just a few simple tables:
 
 **Reservations**
 
-| id | username | projection_id | spot |
-| ---|----------|---------------|:----:|
-|1|RadoRado|1|(2,1)
-|2|RadoRado|1|(3,5)
-|3|RadoRado|1|(7,8)
-|4|Ivo|3|(1,1)
-|5|Ivo|3|(1,2)
-|6|Mysterious|5|(2,3)
-|7|Mysterious|5|(2,4)
+| id | username | projection_id | row | col |
+| ---|----------|---------------|:----:|:---:|
+|1|RadoRado|1|2|1|
+|2|RadoRado|1|3|5|
+|3|RadoRado|1|7|8|
+|4|Ivo|3|1|1|
+|5|Ivo|3|1|2|
+|6|Mysterious|5|2|3|
+|7|Mysterious|5|2|4|
 
 **Things to note**
 * For each projection we assume the hall will be a 10x10 matrix.
@@ -108,8 +108,8 @@ Current movies:
 [3] - Her (8.3)
 Step 2 (Movie): Choose a movie> 2
 Projections for movie 'Wreck-It Ralph':
-[5] - 2014-04-02 19:30 (2D)
-[6] - 2014-04-02 22:00 (3D)
+[5] - 2014-04-02 19:30 (2D) - 98 spots available
+[6] - 2014-04-02 22:00 (3D) - 100 spots availabe
 Step 3 (Projection): Choose a projection> 5
 Available seats (marked with a dot):
    1 2 3 4 5 6 7 8 9 10
