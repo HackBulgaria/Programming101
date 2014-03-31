@@ -29,8 +29,10 @@ __Few good materials for getting a grasp of SQL:__
 * Learn what is an SQL Injection (This will help you understand SQL) - https://www.youtube.com/watch?v=_jKylhJtPmI
 * SQL vs NoSQL is a good way to understand SQL :) - https://www.youtube.com/watch?v=rRoy6I4gKWU
 
+### sqlite
 
-We are going to tackle sqlite:
+We are going to tackle with sqlite:
 
 * Check the Python documentation for sqlite - http://docs.python.org/2/library/sqlite3.html
 * You can check the web page for sqlite for better understanding it - https://sqlite.org/
+* A very good tutorial on sqlite - http://www.pythoncentral.io/series/python-sqlite-database-tutorial/
