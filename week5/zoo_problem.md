@@ -1,15 +1,16 @@
-##Zoo (week 4's saturday is teamwork day again :))
+# Zoo Problem - Simulating a zoo)
 
 
-###We'll be writing a program that will (hopefully) simulate the live going on in the zoo.
+## We'll be writing a program that will (hopefully) simulate the live going on in the zoo.
+
 Here are descriptions of the classes you should have to complete the task, but
-of course you're free to add more if you feel you'll need to.<br>
+of course you're free to add more if you feel you'll need to.
+
 There is also a database file that has a table with possible animals, which
 you should use too ^^
 
 
-#####class Animal should have:
-
+## Animal class should have the following attributes:
 
 * species
 * age
@@ -17,24 +18,29 @@ you should use too ^^
 * gender
 * weight
 
-An animal can grow (increase it's weight and age),
-can eat (consume food). It also has increased chance of dying
-when getting older (nearer to the average life expectancy = higher chance).
+## An animal can to the following things:
 
-#####class Zoo should have:
+* it can grow (increase it's weight and age)
+* it can eat (consume food)
+* it can die (when it gets to the average life expectancy)
+
+
+## Zoo class should have:
 
 * animals, of course
 * capacity (how many animals can it accommodate)
 * budget (the money it has at the moment)
 
-The zoo can accommodate an animal, it has daily incomes depending on
-how much animals it has (the more animals it has, the more interesting it will
-be to go into that zoo, right?) and daily outcomes depending on how much do the
-animals eat (every food has it's price)
-(and, sadly, sometimes animals happen to die :/).
-Also, our animals reproduce half an year (6 months) after their gestation period is over.
+## A zoo can do the following thins:
 
-#####How an animal is born:
+
+* The zoo can accommodate an animal
+* It has daily incomes depending on how much animals it has (the more animals it has, the more interesting it will be to go into that zoo, right?)
+* It has daily outcomes depending on how much do the animals eat (every food has it's price)
+* Sadly, animals can die in the zoo :/
+* The animals reproduce half an year (6 months) after their gestation period is over.
+
+## How an animal is born:
 If a male and a female of the same species are present,
 after gestation period a new animal is born.
 After an animal is born, after 6 months the female is ready
