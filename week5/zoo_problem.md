@@ -1,7 +1,7 @@
 # Zoo Problem - Simulating a zoo
 
 
-## We'll be writing a program that will (hopefully) simulate the live going on in the zoo.
+## We'll be writing a program that will simulate the live going on in the zoo.
 
 Here are descriptions of the classes you should have to complete the task, but
 of course you're free to add more if you feel you'll need to.
@@ -14,7 +14,7 @@ you should use too ^^
 
 * species
 * age
-* name - __This must he unique.__ (Because zoo animals have names! )
+* name - __This must be unique.__ (Because zoo animals have names! )
 * gender
 * weight
 
@@ -40,7 +40,6 @@ chance_of_dying = current_animal_year / life_expectancy
 
 ## A zoo can do the following thins:
 
-
 * The zoo can accommodate an animal
 * It has daily incomes depending on how much animals it has (the more animals it has, the more interesting it will be to go into that zoo, right?)
 * It has daily outcomes depending on how much do the animals eat (every food has it's price)
@@ -62,8 +61,11 @@ to reproduce again.
 * one kilo grass, foliage or bamboo costs 2$
 
 ## We wrote for you a database with animals
-(check it with sqlitebrowser, if you still don't
-have it, now's the time :)) which you can (should/must) use to write your classes.
+
+You can open the ```animals.db``` file with sqlite browser!
+
+__The data in that table is very important!__
+
 The table contains the following columns:
 * species (for example, a tiger)
 * life expectancy - how long is the species expected to live
@@ -79,7 +81,7 @@ __The ages in the table are in months__
 
 ## The program, simulating a zoo
 
-We can have a lots of Zoo, but for the simulation, we are going to create one Zoo when the program starts and work with it.
+We can have a lots of Zoos, but for the simulation, we are going to create one Zoo when the program starts and work with it.
 
 You should have the following interface to communicate with the written program:
 
