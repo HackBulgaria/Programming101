@@ -1,4 +1,4 @@
-# Zoo Problem - Simulating a zoo)
+# Zoo Problem - Simulating a zoo
 
 
 ## We'll be writing a program that will (hopefully) simulate the live going on in the zoo.
@@ -14,7 +14,7 @@ you should use too ^^
 
 * species
 * age
-* name (because zoo animals have names ^^)
+* name - __This must he unique.__ (Because zoo animals have names! )
 * gender
 * weight
 
@@ -24,6 +24,13 @@ you should use too ^^
 * it can eat (consume food)
 * it can die (The close the animal gets to its life expectancy, the higher the chance of dying)
 
+## Chance of dying
+
+To calculate the chance of dying, take the ratio of the current age of the animal and divide it by the life expectancy for the given specie:
+
+```
+chance_of_dying = current_animal_year / life_expectancy
+```
 
 ## Zoo class should have:
 
@@ -40,11 +47,13 @@ you should use too ^^
 * Sadly, animals can die in the zoo :/
 * The animals reproduce half an year (6 months) after their gestation period is over.
 
-## How an animal is born:
-If a male and a female of the same species are present,
+## How an animal is born
+
+* If a male and a female of the same species are present,
 after gestation period a new animal is born.
-After an animal is born, after 6 months the female is ready
-to reproduce again. There's only one baby animal which gender is 50/50 chance to be male or female.
+* After an animal is born, after 6 months the female is ready
+to reproduce again.
+* There's only one baby animal __which gender is 50/50 chance__ to be male or female.
 
 ## Costs of accomodating an animal
 
@@ -69,6 +78,8 @@ __The ages in the table are in months__
 
 
 ## The program, simulating a zoo
+
+We can have a lots of Zoo, but for the simulation, we are going to create one Zoo when the program starts and work with it.
 
 You should have the following interface to communicate with the written program:
 
