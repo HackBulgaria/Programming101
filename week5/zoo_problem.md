@@ -101,6 +101,14 @@ For every `<interval_of_time>` the program should print the current state of the
 * prints if an animal has been born
 * prints if the zoo doesn't have enough budget to pay for the food
 
+The order of happening is as follows:
+
+* Grows all animals
+* Checks if animal is going to die
+* Checks if the zoo can afford to feed all animals
+* Checks if animal is going to be born
+* Repeat
+
 Good luck!
 
 ## Not to forget!!
