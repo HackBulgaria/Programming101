@@ -22,7 +22,7 @@ you should use too ^^
 
 * it can grow (increase it's weight and age)
 * it can eat (consume food)
-* it can die (when it gets to the average life expectancy)
+* it can die (The close the animal gets to its life expectancy, the higher the chance of dying)
 
 
 ## Zoo class should have:
@@ -46,11 +46,13 @@ after gestation period a new animal is born.
 After an animal is born, after 6 months the female is ready
 to reproduce again. There's only one baby animal which gender is 50/50 chance to be male or female.
 
-an animal brings 60$ back to the zoo per day<br>
-one kilo meat costs 4$<br>
-one kilo grass, foliage or bamboo costs 2$<br>
+## Costs of accomodating an animal
 
-#####We wrote for you a database with animals
+* an animal brings 60$ back to the zoo per day
+* one kilo meat costs 4$
+* one kilo grass, foliage or bamboo costs 2$
+
+## We wrote for you a database with animals
 (check it with sqlitebrowser, if you still don't
 have it, now's the time :)) which you can (should/must) use to write your classes.
 The table contains the following columns:
@@ -63,8 +65,10 @@ The table contains the following columns:
 (when the species gets to average weight, it stops growing)
 * food/weight ratio - how much does the species eat (in kilos) per weight (also in kilos)
 
-The ages in the table are in months
+__The ages in the table are in months__
 
+
+## The program, simulating a zoo
 
 You should have the following interface to communicate with the written program:
 
