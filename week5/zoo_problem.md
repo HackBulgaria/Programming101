@@ -14,7 +14,7 @@ you should use too ^^
 
 * species
 * age
-* name - __This must be unique.__ (Because zoo animals have names! )
+* name - __You can have one unique name in one species.__ This means, you can have only one tiger, named "Lucho". And only one bear, named "Lucho". Etc.
 * gender
 * weight
 
