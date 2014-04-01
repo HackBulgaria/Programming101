@@ -103,6 +103,8 @@ For every `<interval_of_time>` the program should print the current state of the
 
 Good luck!
 
+## Not to forget!!
+
 And don't forget the three things we're trying to code with:
 * test driven development
 * objected oriented programming
