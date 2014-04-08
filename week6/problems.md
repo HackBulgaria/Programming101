@@ -71,6 +71,7 @@ Your customers need a reset password function. Add an email field in the client 
 Your command must look like this:
 
 ```send-reset-password Ivaylo```
+
 It sends an email to the user, with a unique random hash code.
 
 
