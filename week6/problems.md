@@ -64,3 +64,18 @@ This should work even if the user exits the bank software and tries to login aga
 
 It is a good idea to use the help of the database, to achieve that!
 __As always, don't forget the tests.__ 
+
+## 7. Reset password email
+
+Your customers need a reset password function. Add an email field in the client module and in the database.
+Your command must look like this:
+
+```send-reset-password Ivaylo```
+It sends an email to the user, with a unique random hash code.
+
+
+```reset-password Ivaylo```
+
+That will ask you for the hash code, that was send to the user. If you know the hash it will led you to change your passwords. That proofs that you are the owner of that email.
+
+Try sending emails by using a gmail SMTP. GOOGLE IT!
