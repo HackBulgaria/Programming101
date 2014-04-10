@@ -11,9 +11,10 @@ The API reference can be found here - https://developer.github.com/v3/
 We are going to do the following things:
 
 1. Fetch all public repositories for a given user
-2. Download the repositories as a tarball
+2. Download the repositories as a tarball / zip
 3. Unzip them
 4. Run some statistics on the files
+5. When the script is done, delete all the downloaded files
 
 ### Some help - repos, downloading & unzipping
 
