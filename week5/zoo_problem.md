@@ -18,15 +18,15 @@ you should use too ^^
 * gender
 * weight
 
-## An animal can to the following things:
+## An animal can do the following things:
 
-* it can grow (increase it's weight and age)
+* it can grow (increase its weight and age)
 * it can eat (consume food)
-* it can die (The close the animal gets to its life expectancy, the higher the chance of dying)
+* it can die (the closer the animal gets to its life expectancy, the higher is the chance of dying)
 
 ## Chance of dying
 
-To calculate the chance of dying, take the ratio of the current age of the animal and divide it by the life expectancy for the given specie:
+To calculate the chance of dying, take the ratio of the current age of the animal and divide it by the life expectancy for the given species:
 
 ```
 chance_of_dying = current_animal_year / life_expectancy
@@ -35,14 +35,14 @@ chance_of_dying = current_animal_year / life_expectancy
 ## Zoo class should have:
 
 * animals, of course
-* capacity (how many animals can it accommodate)
+* capacity (how many animals it can accommodate)
 * budget (the money it has at the moment)
 
-## A zoo can do the following thins:
+## A zoo can do the following things:
 
 * The zoo can accommodate an animal
 * It has daily incomes depending on how much animals it has (the more animals it has, the more interesting it will be to go into that zoo, right?)
-* It has daily outcomes depending on how much do the animals eat (every food has it's price)
+* It has daily outcomes depending on how much do the animals eat (every food has its price)
 * Sadly, animals can die in the zoo :/
 * The animals reproduce half an year (6 months) after their gestation period is over.
 
@@ -81,15 +81,15 @@ __The ages in the table are in months__
 
 ## The program, simulating a zoo
 
-We can have a lots of Zoos, but for the simulation, we are going to create one Zoo when the program starts and work with it.
+We can have a lot of Zoos, but for the simulation, we are going to create one Zoo when the program starts and work with it.
 
 You should have the following interface to communicate with the written program:
 
-`see_animals`- prints all animals in the zoo in the following format: `<name> : <species>, <age>, <weight>`
+`see_animals` - prints all animals in the zoo in the following format: `<name> : <species>, <age>, <weight>`
 
 `accommodate <species> <name> <age> <weight>` - adds an animal to the zoo
 
-`move_to_habitat <species> <name>` - removes an animal from the zoo and returns it to it's natural habitat
+`move_to_habitat <species> <name>` - removes an animal from the zoo and returns it to its natural habitat
 
 `simulate <interval_of_time> <period>` where:
 `<interval_of_time>` is 'days', 'weeks', 'months' or 'years' and `<period>` is a number.
@@ -104,9 +104,9 @@ For every `<interval_of_time>` the program should print the current state of the
 The order of happening is as follows:
 
 * Grows all animals
-* Checks if animal is going to die
+* Checks if an animal is going to die
 * Checks if the zoo can afford to feed all animals
-* Checks if animal is going to be born
+* Checks if an animal is going to be born
 * Repeat
 
 Good luck!
