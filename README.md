@@ -18,7 +18,7 @@ Usually, you will find code samples, links and videos about the topic of the wee
 
 ## Outline of the course
 
-* __week0__ - Getting familiar with Python and Python tooling - shell interpreter, Sublime with PEP8 plugins. There are a lot of tasks to be solved, using only Python!
+* __week0__ - Getting familiar with Python, Python tooling and Linux - shell interpreter, Sublime with PEP8 plugins, moving around the file systems. There are a lot of tasks to be solved, using only Python!
 * __week1__ - Getting familiar with Git and GitHub - everyone creates a GitHub account and starts using it to push code & start thinking with versions. Solving the [Polyglot](https://github.com/HackBulgaria/Polyglot) problem where everyone should get at least 8 different languages and platforms up and running!
 * __week2__ - Introducing __TDD!__ Starting with Python OOP and creating a console-based dungeon game, where you find Anacondas! You know, like a bigger Python :D Everything should be done in a Test-Driven matter.
 * __week3__ - Moving on with OOP problems and TDD - a lot of console applications!
