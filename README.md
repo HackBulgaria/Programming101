@@ -24,5 +24,5 @@ Usually, you will find code samples, links and videos about the topic of the wee
 * __week3__ - Moving on with OOP problems and TDD - a lot of console applications!
 * __week4__ - Introducing sqlite3 and adding a database layer to our python console applications. Everything is done with database, OOP and in a Test-Driven fashion!
 * __week5__ - Introducing team-work problems and how to use Git & GitHub for handling a team of more than 1 person. We create a simulation of a Zoo - Teamwork + OOP + sqlite3 + TDD
-* __week6__ - Introducing basic security concetps - hashing, SQL Injection, hiding passwords from input, bruteforce protections. There is a app waiting to be refactored.
+* __week6__ - Introducing basic security concepts - hashing, SQL Injection, hiding passwords from input, bruteforce protections. There is an app waiting to be refactored.
 * __week7__ - Introducig the ORM concept and using SqlAlchemy as an ORM library for Python.

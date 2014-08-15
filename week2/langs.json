@@ -1,0 +1,27 @@
+[
+    {
+        "Website": "http://python.org/", 
+        "Type": "dynamic", 
+        "Language": "Python"
+    }, 
+    {
+        "Website": "https://www.ruby-lang.org/en/", 
+        "Type": "dynamic", 
+        "Language": "Ruby"
+    }, 
+    {
+        "Website": "http://nodejs.org/", 
+        "Type": "dynamic", 
+        "Language": "JavaScript (Node)"
+    }, 
+    {
+        "Website": "http://www.cplusplus.com/", 
+        "Type": "Static Typed", 
+        "Language": "C++"
+    }, 
+    {
+        "Website": "http://www.cplusplus.com/", 
+        "Type": "Static Typed", 
+        "Language": "Java"
+    }
+]
